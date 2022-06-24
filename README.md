@@ -42,7 +42,7 @@ using [GeneSpace](https://github.com/jtlovell/GENESPACE), [Broccoli](https://git
 		$ Rscript scripts/run_Genespace.R
 			-w out/orthology	    # working directory
 			-g out/transcripts 		# transcripts
-			-s 'Danio_rerio, Homo_sapiens, Anopheles_gambiae'		# list of species
+			-s 'Daniorerio, Homosapiens, Anophelesgambiae'		# list of species
 	
 	
 	*Broccoli:* Broccoli writes outputs to the working directory that the script is being run from.
