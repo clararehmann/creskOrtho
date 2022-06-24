@@ -3,10 +3,10 @@
 ```mermaid
 graph LR
 A[List of species for inference]  --download_refseq.sh -->  B[out/raw_genomes/ : Un-annotated .gff and .fa files]
-B  -- run_genespace.sh --> C[Ortholog inference output]
+B  -- GeneSpace --> C[Ortholog inference output]
 B  -- parse_NCBI.R --> D[out/raw_genomes/annotated : Annotated .fa files]
-D  -- run_broccoli.sh --> C[Ortholog inference output]
-D  -- run_orthofinder.sh --> C[Ortholog inference output]
+D  -- Broccoli --> C[Ortholog inference output]
+D  -- OrthoFinder --> C[Ortholog inference output]
 C  -- parse_orthout.py --> E[orthologs.txt]
 E  &  G[CellRanger output]-- rename_seqgenes.py --> F[renamed CellRanger output]
 ```
@@ -19,9 +19,9 @@ E  &  G[CellRanger output]-- rename_seqgenes.py --> F[renamed CellRanger output]
 
     Ortholog inference methods are available via GitHub:
 
-			- [GeneSpace](https://github.com/jtlovell/GENESPACE)
-			-  [Broccoli](https://github.com/rderelle/Broccoli)
-			- [OrthoFinder](https://github.com/davidemms/OrthoFinder)
+	- [GeneSpace](https://github.com/jtlovell/GENESPACE)
+	-  [Broccoli](https://github.com/rderelle/Broccoli)
+	- [OrthoFinder](https://github.com/davidemms/OrthoFinder)
 
 	
 
