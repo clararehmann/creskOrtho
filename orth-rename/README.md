@@ -13,11 +13,11 @@ E  &  G[CellRanger output]-- rename_seqgenes.py --> F[renamed CellRanger output]
 
 0. **Environment setup and software** 
 
-        Python dependencies are listed in `py-requirements.txt` .
+    Python dependencies are listed in `py-requirements.txt` .
 
-        R dependencies can be installed using `install-req.R`.
+    R dependencies can be installed using `install-req.R`.
 
-        Ortholog inference methods are available via GitHub:
+    Ortholog inference methods are available via GitHub:
 			- [GeneSpace](https://github.com/jtlovell/GENESPACE)
 			-  [Broccoli](https://github.com/rderelle/Broccoli)
 			- [OrthoFinder](https://github.com/davidemms/OrthoFinder)
